@@ -18,3 +18,13 @@
 .disabled-answer {
   pointer-events: none;
 }
+
+.correct-background {
+  background-color: rgba(0, 255, 0, 0.25);
+  transition: all .3s ease-out;
+}
+
+.wrong-background {
+  background-color: rgba(255, 0, 0, 0.25);
+  transition: all .3s ease-out;
+}
